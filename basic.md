@@ -8,7 +8,11 @@ A 'git status' paranccsal bármikor le lehet kérdezni, hogy mi az aktuális st�
 * 'git checkout -- .' ezzel a paranccsal vissza tudunk menni a legutolsó verzióhoz.
 * 'git reset --hard <ID>' ezzel óvatosan kell bánni, mert úgy tudunk visszamenni egy verzióhoz, hogy a későbbi módosításokat töröljük!
 
-<p> Elágazások: </p>
+Elágazások:
 * 'git branch' parancs az aktuális elágazásokat mutatja meg.
+* 'git checkout "branch" ' parancs az adott ágba ugrik át
+* 'git checkout -b "baranch" ' parancs létrehozza az adott ágat.
+* 'git merge "branch" ' parancs  összefésüli a "master" ágat és a "branch" ágat. Ehhez a "master" ágban kell lenni.
+* 'git branch -D "branch" - ez törli végérvényesen az adott ágat.
 
 
